@@ -63,7 +63,7 @@ const SellForm = () => {
           type="text"
           value={itemBrand}
           onChange={(e) => setItemBrand(e.target.value)}
-          classname="secondSellInput"
+          className="secondSellInput"
           placeholder="Designer"
           required
         />
